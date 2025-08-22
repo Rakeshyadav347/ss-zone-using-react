@@ -42,9 +42,6 @@ const Navbar = () => {
         <Link className="nav-items hideonMobile" to="/login">
           <button className="log-btn">Login</button>
         </Link>
-        <li className="mnav-right">
-          <img className="m-sidebar" src="m-nav.svg"></img>
-        </li>
       </ul>
     </header>
   );

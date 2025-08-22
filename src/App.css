@@ -13,24 +13,6 @@
   background: #ffffff;
   box-shadow: 0px 10px 10px rgba(241, 226, 226, 0.94);
 }
-@media (max-width: 768px) {
-  .hideonMobile {
-    display: none;
-  }
-
-  .m-sidebar {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    margin-left: 41vw;
-  }
-}
-@media (min-width: 768px) {
-  .m-sidebar {
-    display: none;
-  }
-}
 
 .header {
   display: flex;
@@ -290,12 +272,6 @@ button {
   opacity: 1;
   background: #ffffff;
   gap: 25px;
-}
-@media (max-width: 768px) {
-  .hero-mid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 }
 
 .hero-sec2 {
